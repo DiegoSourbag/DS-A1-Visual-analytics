@@ -57,7 +57,7 @@ df_sales_2 = df_sales_2.rename(columns={'Order Charged Date': 'Transaction Date'
 df_sales = pd.concat([df_sales_1, df_sales_2], ignore_index=True)
 
 # Filter the DataFrame
-filtered_df_sales = df_sales[
+df_sales = df_sales[
     ((df_sales['Transaction Type'] == 'Charge') | (df_sales['Transaction Type'] == 'Charged')) &
     (df_sales['Product id'] == 'com.vansteinengroentjes.apps.ddfive')
       ]
