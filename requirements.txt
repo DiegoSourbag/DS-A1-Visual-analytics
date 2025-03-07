@@ -1,5 +1,5 @@
 pandas
 numpy
 bokeh
-ipykernal
+ipykernel
 geopandas
