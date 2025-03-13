@@ -3,3 +3,5 @@ numpy
 bokeh
 ipykernel
 geopandas
+pycountry
+scikit-learn
